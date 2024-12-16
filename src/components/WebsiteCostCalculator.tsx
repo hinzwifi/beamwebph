@@ -51,7 +51,7 @@ export default function WebsiteCostCalculator() {
       <h1 className="text-3xl font-bold mb-8">Website Cost Calculator</h1>
       {renderOptions(websiteOptions.features as WebsiteOption[], "Features")}
       {renderOptions(websiteOptions.services as WebsiteOption[], "Services")}
-      <Card className="sticky bottom-0 bg-background border-t border-border shadow-lg z-10">
+      <Card className="sticky bottom-2  bg-yellow-300   shadow-lg z-10">
         <CardHeader className="py-3">
           <CardTitle className="text-lg font-semibold text-primary">
             Total Cost
