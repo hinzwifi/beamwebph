@@ -1,0 +1,66 @@
+{
+  "features": [
+    {
+      "id": "responsive",
+      "name": "Responsive Design",
+      "description": "Ensure your website looks great on all devices, from desktops to smartphones.",
+      "price": 500
+    },
+    {
+      "id": "seo",
+      "name": "SEO Optimization",
+      "description": "Improve your website's visibility in search engine results.",
+      "price": 300
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics Integration",
+      "description": "Track and analyze your website's traffic and user behavior.",
+      "price": 200
+    },
+    {
+      "id": "blog",
+      "name": "Blog Section",
+      "description": "Add a fully-featured blog to your website to share content and engage visitors.",
+      "price": 250
+    },
+    {
+      "id": "contact",
+      "name": "Contact Form",
+      "description": "Allow visitors to easily get in touch with you through a custom contact form.",
+      "price": 150
+    }
+  ],
+  "services": [
+    {
+      "id": "hosting",
+      "name": "Web Hosting (per year)",
+      "description": "Reliable and fast hosting for your website on our secure servers.",
+      "price": 100
+    },
+    {
+      "id": "maintenance",
+      "name": "Monthly Maintenance",
+      "description": "Regular updates and maintenance to keep your website running smoothly.",
+      "price": 150
+    },
+    {
+      "id": "security",
+      "name": "Security Package",
+      "description": "Advanced security measures to protect your website from threats and attacks.",
+      "price": 200
+    },
+    {
+      "id": "backup",
+      "name": "Daily Backups",
+      "description": "Automatic daily backups of your website to prevent data loss.",
+      "price": 50
+    },
+    {
+      "id": "support",
+      "name": "24/7 Support",
+      "description": "Round-the-clock support for any issues or questions you may have.",
+      "price": 300
+    }
+  ]
+}
