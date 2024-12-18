@@ -1,5 +1,6 @@
 "use client";
 
+import LogoCarousel from "@/components/Carousel";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -15,7 +16,7 @@ export default function Home() {
           objectFit="cover"
           quality={100}
         /> */}
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0  opacity-50"></div>
         <div className="relative z-10 text-center">
           <motion.h1
             className="text-4xl md:text-6xl font-bold mb-4 text-[#F2B705]"
@@ -51,25 +52,23 @@ export default function Home() {
       {/* Trusted By Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-[#151515] mb-8">Trusted By</h2>
-          <div className="flex flex-wrap justify-center items-center gap-8">
-            {/* Add partner logos here */}
-            <div className="w-32 h-16 bg-gray-200"></div>
-            <div className="w-32 h-16 bg-gray-200"></div>
-            <div className="w-32 h-16 bg-gray-200"></div>
-            <div className="w-32 h-16 bg-gray-200"></div>
-          </div>
+          <h2 className="text-3xl font-bold text-center text-[#151515] mb-8">
+            Trusted By
+          </h2>
+          <LogoCarousel />
         </div>
       </section>
 
       {/* Why Beam PH Section */}
       <section className="py-16 bg-[#151515]">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-[#F2B705] mb-8">Why Beam PH</h2>
+          <h2 className="text-3xl font-bold text-center text-[#F2B705] mb-8">
+            Why Beam PH
+          </h2>
           <p className="text-center text-white max-w-2xl mx-auto mb-8">
-            With over 20 years of collective experience in the industry, we are committed to helping
-            local businesses, startups, and entrepreneurs grow through innovative and tailored
-            solutions.
+            With over 20 years of collective experience in the industry, we are
+            committed to helping local businesses, startups, and entrepreneurs
+            grow through innovative and tailored solutions.
           </p>
           <div className="flex justify-center">
             <Link
@@ -85,7 +84,9 @@ export default function Home() {
       {/* Services Overview Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-[#151515] mb-8">Our Services</h2>
+          <h2 className="text-3xl font-bold text-center text-[#151515] mb-8">
+            Our Services
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <ServiceCard
               title="Business Solutions"
@@ -122,7 +123,9 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 bg-[#F2B705]">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-[#151515] mb-4">Ready to Get Started?</h2>
+          <h2 className="text-3xl font-bold text-[#151515] mb-4">
+            Ready to Get Started?
+          </h2>
           <p className="text-[#151515] mb-8">
             Experience the power of our virtual assistance today!
           </p>

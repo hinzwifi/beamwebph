@@ -15,7 +15,7 @@ export function OptionCard({ option, isSelected, onToggle }: OptionCardProps) {
       className={`mb-4 hover:cursor-pointer transition-all duration-300 ${
         isSelected
           ? "bg-primary text-primary-foreground shadow-lg ring-2 ring-primary"
-          : "bg-card hover:bg-accent hover:text-accent-foreground"
+          : "bg-card hover:bg-accent hover:text-accent-foreground ring-1 ring-primary"
       }`}
       onClick={() => onToggle(option.id)}
     >

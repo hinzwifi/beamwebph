@@ -1,66 +1,105 @@
 {
   "features": [
     {
-      "id": "responsive",
-      "name": "Responsive Design",
-      "description": "Ensure your website looks great on all devices, from desktops to smartphones.",
+      "id": "additional_pages",
+      "name": "Additional Pages (3-5 sections)",
+      "description": "Add extra pages to your website to showcase more content.",
+      "price": 60,
+      "note": "Price per page"
+    },
+    {
+      "id": "contact_form",
+      "name": "Contact Form",
+      "description": "Allow visitors to easily get in touch with you.",
+      "price": 50
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce Functionality",
+      "description": "Set up an online store to sell products or services.",
       "price": 500
     },
     {
-      "id": "seo",
-      "name": "SEO Optimization",
-      "description": "Improve your website's visibility in search engine results.",
-      "price": 300
+      "id": "blog_setup",
+      "name": "Blog Setup",
+      "description": "Add a blog to your website to share news and updates.",
+      "price": 80
     },
     {
       "id": "analytics",
       "name": "Analytics Integration",
       "description": "Track and analyze your website's traffic and user behavior.",
+      "price": 150
+    },
+    {
+      "id": "payment_gateway",
+      "name": "Payment Gateway Integration",
+      "description": "Integrate a payment gateway to securely process online payments.",
       "price": 200
     },
     {
-      "id": "blog",
-      "name": "Blog Section",
-      "description": "Add a fully-featured blog to your website to share content and engage visitors.",
-      "price": 250
+      "id": "api_integration",
+      "name": "Custom API Integration",
+      "description": "Connect your website with other applications and services.",
+      "price": 80,
+      "note": "Price per API"
     },
     {
-      "id": "contact",
-      "name": "Contact Form",
-      "description": "Allow visitors to easily get in touch with you through a custom contact form.",
-      "price": 150
+      "id": "membership",
+      "name": "Membership/Subscription Functionality",
+      "description": "Create a membership area or offer subscription-based content.",
+      "price": 300
+    },
+    {
+      "id": "live_chat",
+      "name": "Live Chat Integration",
+      "description": "Provide instant customer support through a live chat widget.",
+      "price": 200
+    },
+    {
+      "id": "multilingual",
+      "name": "Multilingual Support",
+      "description": "Make your website accessible to a global audience.",
+      "price": 200
+    },
+    {
+      "id": "project_showcase",
+      "name": "Project Showcase",
+      "description": "Display your past projects in an attractive portfolio section.",
+      "price": 100
+    },
+    {
+      "id": "social_media",
+      "name": "Social Media Integration",
+      "description": "Connect your website with your social media profiles.",
+      "price": 80
+    },
+    {
+      "id": "custom_feature",
+      "name": "Custom Feature",
+      "description": "Request a unique feature tailored to your specific needs.",
+      "price": "TBD"
     }
   ],
   "services": [
     {
-      "id": "hosting",
-      "name": "Web Hosting (per year)",
-      "description": "Reliable and fast hosting for your website on our secure servers.",
-      "price": 100
+      "id": "web_hosting",
+      "name": "Web Hosting",
+      "description": "Reliable and secure hosting for your website.",
+      "price": 50,
+      "note": "Price per month/year (specify in description)"
     },
     {
-      "id": "maintenance",
-      "name": "Monthly Maintenance",
+      "id": "website_maintenance",
+      "name": "Website Maintenance",
       "description": "Regular updates and maintenance to keep your website running smoothly.",
-      "price": 150
-    },
-    {
-      "id": "security",
-      "name": "Security Package",
-      "description": "Advanced security measures to protect your website from threats and attacks.",
-      "price": 200
-    },
-    {
-      "id": "backup",
-      "name": "Daily Backups",
-      "description": "Automatic daily backups of your website to prevent data loss.",
       "price": 50
     },
     {
-      "id": "support",
-      "name": "24/7 Support",
-      "description": "Round-the-clock support for any issues or questions you may have.",
-      "price": 300
+      "id": "analytics_tracking",
+      "name": "Web Analytics and Conversion Tracking",
+      "description": "Track key metrics and optimize your website for conversions.",
+      "price": 10
     }
   ]
 }
