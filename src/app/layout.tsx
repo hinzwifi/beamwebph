@@ -12,7 +12,7 @@ const geistSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Beam PH",
+  title: "BEAM PH",
   description: "Nurturing Tomorrow's Brands, Today",
 };
 
